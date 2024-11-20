@@ -1,0 +1,191 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+#header
+{
+    height: 10ch;
+    width: 10ch ;
+    background-image: url(touse/background.png);
+    background-size: cover;
+    background-position: top;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+    background: #080808
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    background: #555;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #f04;
+    color: #fff;
+    padding: 10p/* Global Styles */
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+    
+    .container {
+        width: 90%;
+        margin: auto;
+        max-width: 1200px;
+    }
+    
+    /* Navbar */
+    .navbar {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .navbar .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .navbar nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .navbar nav ul li {
+        margin-left: 20px;
+    }
+    
+    .navbar nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: background 0.3s ease;
+    }
+    
+    .navbar nav ul li a:hover {
+        background: #555;
+    }
+    
+    /* Hero Section */
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
+        color: #fff;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hero .btn {
+        background: #f04;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background 0.3s ease;
+    }
+    
+    .hero .btn:hover {
+        background: #c03;
+    }
+    
+    /* About Section */
+    .about {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    /* Footer */
+    .footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    x 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #c03;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
